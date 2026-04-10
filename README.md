@@ -93,6 +93,8 @@ npm run dev
 ## Screenshot de la Interfaz
 ![Dashboard de GastoClaro]
 <img width="1908" height="872" alt="image" src="https://github.com/user-attachments/assets/421ba12c-a86f-4120-83be-377e78a9eaaa" />
+<img width="1910" height="873" alt="image" src="https://github.com/user-attachments/assets/ccb20e2c-6304-4b9d-809a-0ac3af4541f2" />
+
 
 
 ## Enlace al Repositorio GitHub
