@@ -7,5 +7,14 @@ export async function connectDB() {
     throw new Error("Falta la variable de entorno MONGODB_URI.");
   }
 
+  if (mongoose.connection.readyState === 1) {
+    return mongoose.connection;
+  }
+
+  if (mongoose.connection.readyState === 2) {
+    return mongoose.connection.asPromise();
+  }
+
   await mongoose.connect(mongoUri);
+  return mongoose.connection;
 }
