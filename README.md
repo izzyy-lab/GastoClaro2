@@ -18,12 +18,13 @@ GastoClaro permite crear cuenta, iniciar sesion y registrar gastos personales po
 ## Instalacion
 ### 1) Clonar e instalar frontend
 ```bash
+cd frontend
 npm install
 ```
 
 ### 2) Instalar backend
 ```bash
-cd backend
+cd ../backend
 npm install
 ```
 
